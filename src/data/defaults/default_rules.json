@@ -1,0 +1,1209 @@
+[
+  {
+    "category_name": "Payroll", "priority": 1,
+    "description_pattern": "ADP TOTALSOURCE", "description_match_type": "contains",
+    "type_pattern": "ACH_CREDIT", "type_match_type": "exact"
+  },
+  {
+    "category_name": "Payroll", "priority": 2,
+    "description_pattern": "PAYROLL", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Payroll", "priority": 3,
+    "description_pattern": "DIRECT DEP", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Payroll", "priority": 4,
+    "description_pattern": "GUSTO", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Payroll", "priority": 5,
+    "description_pattern": "PAYCHEX", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Payroll", "priority": 6,
+    "description_pattern": "WORKDAY", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Transfers", "priority": 1,
+    "description_pattern": "Online Transfer", "description_match_type": "contains",
+    "type_pattern": "ACCT_XFER", "type_match_type": "exact"
+  },
+  {
+    "category_name": "Transfers", "priority": 2,
+    "description_pattern": "ODP TRANSFER", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Transfers", "priority": 3,
+    "description_pattern": "ZELLE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Transfers", "priority": 4,
+    "description_pattern": "VENMO", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Transfers", "priority": 5,
+    "description_pattern": "CASHAPP", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Transfers", "priority": 6,
+    "description_pattern": "CASH APP", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Transfers", "priority": 7,
+    "description_pattern": "PAYPAL", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Transfers", "priority": 8,
+    "description_pattern": "WIRE TRANSFER", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Interest", "priority": 1,
+    "description_pattern": "INTEREST PAYMENT", "description_match_type": "contains",
+    "type_pattern": "MISC_CREDIT", "type_match_type": "exact"
+  },
+
+  {
+    "category_name": "ATM", "priority": 1,
+    "description_pattern": "ATM WITHDRAWAL", "description_match_type": "contains",
+    "type_pattern": "ATM", "type_match_type": "exact"
+  },
+  {
+    "category_name": "ATM", "priority": 2,
+    "description_pattern": "ATM CASH DEPOSIT", "description_match_type": "contains",
+    "type_pattern": "ATM", "type_match_type": "exact"
+  },
+
+  {
+    "category_name": "Deposits", "priority": 1,
+    "details_pattern": "DSLIP", "details_match_type": "exact",
+    "description_pattern": "DEPOSIT", "description_match_type": "contains",
+    "type_pattern": "DEPOSIT", "type_match_type": "exact"
+  },
+
+  {
+    "category_name": "Subscriptions", "priority": 1,
+    "description_pattern": "NETFLIX", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 2,
+    "description_pattern": "SPOTIFY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 3,
+    "description_pattern": "HULU", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 4,
+    "description_pattern": "APPLE.COM/BILL", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 5,
+    "description_pattern": "AMAZON PRIME", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 6,
+    "description_pattern": "DISNEY PLUS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 7,
+    "description_pattern": "DISNEYPLUS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 8,
+    "description_pattern": "HBO MAX", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 9,
+    "description_pattern": "PARAMOUNT+", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 10,
+    "description_pattern": "PEACOCK", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 11,
+    "description_pattern": "YOUTUBE PREMIUM", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 12,
+    "description_pattern": "CRUNCHYROLL", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 13,
+    "description_pattern": "AUDIBLE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 14,
+    "description_pattern": "ADOBE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 15,
+    "description_pattern": "MICROSOFT 365", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 16,
+    "description_pattern": "GOOGLE STORAGE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 17,
+    "description_pattern": "GOOGLE ONE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 18,
+    "description_pattern": "ICLOUD", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 19,
+    "description_pattern": "DROPBOX", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 20,
+    "description_pattern": "NORDVPN", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 21,
+    "description_pattern": "EXPRESSVPN", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 22,
+    "description_pattern": "PLANET FITNESS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 23,
+    "description_pattern": "LA FITNESS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 24,
+    "description_pattern": "ANYTIME FITNESS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 25,
+    "description_pattern": "EQUINOX", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 26,
+    "description_pattern": "YMCA", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 27,
+    "description_pattern": "SIRIUSXM", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 28,
+    "description_pattern": "APPLE MUSIC", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Subscriptions", "priority": 29,
+    "description_pattern": "TIDAL", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Groceries", "priority": 1,
+    "description_pattern": "TRADER JOE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 2,
+    "description_pattern": "WHOLE FOODS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 3,
+    "description_pattern": "WALMART", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 4,
+    "description_pattern": "COSTCO", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 5,
+    "description_pattern": "TARGET", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 6,
+    "description_pattern": "KROGER", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 7,
+    "description_pattern": "PUBLIX", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 8,
+    "description_pattern": "SAFEWAY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 9,
+    "description_pattern": "ALBERTSONS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 10,
+    "description_pattern": "ALDI", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 11,
+    "description_pattern": "FOOD LION", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 12,
+    "description_pattern": "GIANT FOOD", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 13,
+    "description_pattern": "STOP & SHOP", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 14,
+    "description_pattern": "STOP AND SHOP", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 15,
+    "description_pattern": "H-E-B", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 16,
+    "description_pattern": "WEGMANS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 17,
+    "description_pattern": "MEIJER", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 18,
+    "description_pattern": "SAM'S CLUB", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 19,
+    "description_pattern": "SAMS CLUB", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 20,
+    "description_pattern": "BJ'S WHOLESALE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 21,
+    "description_pattern": "PIGGLY WIGGLY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 22,
+    "description_pattern": "SPROUTS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 23,
+    "description_pattern": "FRESH MARKET", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 24,
+    "description_pattern": "SHOPRITE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 25,
+    "description_pattern": "WINN-DIXIE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Groceries", "priority": 26,
+    "description_pattern": "INSTACART", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Dining", "priority": 1,
+    "description_pattern": "DOORDASH", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 2,
+    "description_pattern": "UBER EATS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 3,
+    "description_pattern": "GRUBHUB", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 4,
+    "description_pattern": "STARBUCKS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 5,
+    "description_pattern": "MCDONALD", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 6,
+    "description_pattern": "CHICK-FIL-A", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 7,
+    "description_pattern": "CHIPOTLE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 8,
+    "description_pattern": "SUBWAY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 9,
+    "description_pattern": "TACO BELL", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 10,
+    "description_pattern": "BURGER KING", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 11,
+    "description_pattern": "WENDY'S", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 12,
+    "description_pattern": "WENDYS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 13,
+    "description_pattern": "DUNKIN", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 14,
+    "description_pattern": "PANERA", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 15,
+    "description_pattern": "FIVE GUYS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 16,
+    "description_pattern": "POPEYES", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 17,
+    "description_pattern": "KFC", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 18,
+    "description_pattern": "PANDA EXPRESS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 19,
+    "description_pattern": "DOMINO'S", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 20,
+    "description_pattern": "DOMINOS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 21,
+    "description_pattern": "PIZZA HUT", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 22,
+    "description_pattern": "PAPA JOHN", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 23,
+    "description_pattern": "WINGSTOP", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 24,
+    "description_pattern": "SONIC DRIVE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 25,
+    "description_pattern": "JACK IN THE BOX", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 26,
+    "description_pattern": "WHATABURGER", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 27,
+    "description_pattern": "IN-N-OUT", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 28,
+    "description_pattern": "SHAKE SHACK", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 29,
+    "description_pattern": "POSTMATES", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 30,
+    "description_pattern": "SEAMLESS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 31,
+    "description_pattern": "OLIVE GARDEN", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 32,
+    "description_pattern": "APPLEBEE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 33,
+    "description_pattern": "CHILI'S", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 34,
+    "description_pattern": "CHILIS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 35,
+    "description_pattern": "DENNY'S", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 36,
+    "description_pattern": "DENNYS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 37,
+    "description_pattern": "IHOP", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 38,
+    "description_pattern": "WAFFLE HOUSE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Dining", "priority": 39,
+    "description_pattern": "CRACKER BARREL", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Utilities", "priority": 1,
+    "description_pattern": "CON EDISON", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 2,
+    "description_pattern": "NATIONAL GRID", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 3,
+    "description_pattern": "VERIZON", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 4,
+    "description_pattern": "T-MOBILE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 5,
+    "description_pattern": "SPECTRUM", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 6,
+    "description_pattern": "AT&T", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 7,
+    "description_pattern": "COMCAST", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 8,
+    "description_pattern": "XFINITY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 9,
+    "description_pattern": "DUKE ENERGY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 10,
+    "description_pattern": "DOMINION ENERGY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 11,
+    "description_pattern": "PACIFIC GAS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 12,
+    "description_pattern": "PG&E", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 13,
+    "description_pattern": "SOUTHERN CALIF EDISON", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 14,
+    "description_pattern": "FLORIDA POWER", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 15,
+    "description_pattern": "ENTERGY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 16,
+    "description_pattern": "WATER UTILITY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 17,
+    "description_pattern": "WATER DEPT", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 18,
+    "description_pattern": "SEWER", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 19,
+    "description_pattern": "CRICKET WIRELESS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 20,
+    "description_pattern": "METRO BY T-MOBILE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 21,
+    "description_pattern": "BOOST MOBILE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Utilities", "priority": 22,
+    "description_pattern": "MINT MOBILE", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Gas & Fuel", "priority": 1,
+    "description_pattern": "SHELL", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 2,
+    "description_pattern": "EXXON", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 3,
+    "description_pattern": "BP#", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 4,
+    "description_pattern": "CHEVRON", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 5,
+    "description_pattern": "SUNOCO", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 6,
+    "description_pattern": "MARATHON", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 7,
+    "description_pattern": "CITGO", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 8,
+    "description_pattern": "VALERO", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 9,
+    "description_pattern": "PHILLIPS 66", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 10,
+    "description_pattern": "SPEEDWAY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 11,
+    "description_pattern": "WAWA", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 12,
+    "description_pattern": "SHEETZ", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 13,
+    "description_pattern": "QUIKTRIP", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 14,
+    "description_pattern": "RACETRAC", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 15,
+    "description_pattern": "CASEY'S", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 16,
+    "description_pattern": "CASEYS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 17,
+    "description_pattern": "MOBIL", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 18,
+    "description_pattern": "7-ELEVEN", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 19,
+    "description_pattern": "CIRCLE K", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 20,
+    "description_pattern": "PILOT TRAVEL", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 21,
+    "description_pattern": "LOVES TRAVEL", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 22,
+    "description_pattern": "BUCCEES", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 23,
+    "description_pattern": "BUC-EE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 24,
+    "description_pattern": "MURPHY USA", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 25,
+    "description_pattern": "KWIK TRIP", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 26,
+    "description_pattern": "TESLA SUPERCHARGER", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Gas & Fuel", "priority": 27,
+    "description_pattern": "CHARGEPOINT", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Shopping", "priority": 1,
+    "description_pattern": "AMAZON.COM", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 2,
+    "description_pattern": "AMZN MKTP", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 3,
+    "description_pattern": "BEST BUY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 4,
+    "description_pattern": "HOME DEPOT", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 5,
+    "description_pattern": "LOWE'S", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 6,
+    "description_pattern": "LOWES", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 7,
+    "description_pattern": "IKEA", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 8,
+    "description_pattern": "ETSY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 9,
+    "description_pattern": "EBAY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 10,
+    "description_pattern": "MACYS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 11,
+    "description_pattern": "MACY'S", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 12,
+    "description_pattern": "NORDSTROM", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 13,
+    "description_pattern": "TJ MAXX", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 14,
+    "description_pattern": "TJMAXX", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 15,
+    "description_pattern": "MARSHALLS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 16,
+    "description_pattern": "ROSS STORES", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 17,
+    "description_pattern": "OLD NAVY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 18,
+    "description_pattern": "GAP", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 19,
+    "description_pattern": "NIKE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 20,
+    "description_pattern": "FOOT LOCKER", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 21,
+    "description_pattern": "DOLLAR GENERAL", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 22,
+    "description_pattern": "DOLLAR TREE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 23,
+    "description_pattern": "FIVE BELOW", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 24,
+    "description_pattern": "BED BATH", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 25,
+    "description_pattern": "BATH & BODY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 26,
+    "description_pattern": "SEPHORA", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 27,
+    "description_pattern": "ULTA", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Shopping", "priority": 28,
+    "description_pattern": "APPLE STORE", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Rent & Mortgage", "priority": 1,
+    "description_pattern": "RENT", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Rent & Mortgage", "priority": 2,
+    "description_pattern": "MORTGAGE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Rent & Mortgage", "priority": 3,
+    "description_pattern": "PROPERTY MGMT", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Rent & Mortgage", "priority": 4,
+    "description_pattern": "PROPERTY MANAGEMENT", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Rent & Mortgage", "priority": 5,
+    "description_pattern": "HOA", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Rent & Mortgage", "priority": 6,
+    "description_pattern": "HOMEOWNERS ASSOC", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Insurance", "priority": 1,
+    "description_pattern": "GEICO", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Insurance", "priority": 2,
+    "description_pattern": "STATE FARM", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Insurance", "priority": 3,
+    "description_pattern": "ALLSTATE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Insurance", "priority": 4,
+    "description_pattern": "PROGRESSIVE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Insurance", "priority": 5,
+    "description_pattern": "USAA", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Insurance", "priority": 6,
+    "description_pattern": "LIBERTY MUTUAL", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Insurance", "priority": 7,
+    "description_pattern": "FARMERS INS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Insurance", "priority": 8,
+    "description_pattern": "NATIONWIDE INS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Insurance", "priority": 9,
+    "description_pattern": "METLIFE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Insurance", "priority": 10,
+    "description_pattern": "INSURANCE PREMIUM", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Healthcare", "priority": 1,
+    "description_pattern": "CVS/PHARMACY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Healthcare", "priority": 2,
+    "description_pattern": "CVS PHARMACY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Healthcare", "priority": 3,
+    "description_pattern": "WALGREENS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Healthcare", "priority": 4,
+    "description_pattern": "RITE AID", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Healthcare", "priority": 5,
+    "description_pattern": "KAISER", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Healthcare", "priority": 6,
+    "description_pattern": "UNITEDHEALTH", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Healthcare", "priority": 7,
+    "description_pattern": "AETNA", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Healthcare", "priority": 8,
+    "description_pattern": "CIGNA", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Healthcare", "priority": 9,
+    "description_pattern": "BLUE CROSS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Healthcare", "priority": 10,
+    "description_pattern": "DENTAL", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Healthcare", "priority": 11,
+    "description_pattern": "OPTUM", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Healthcare", "priority": 12,
+    "description_pattern": "EXPRESS SCRIPTS", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Transportation", "priority": 1,
+    "description_pattern": "UBER TRIP", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Transportation", "priority": 2,
+    "description_pattern": "UBER* TRIP", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Transportation", "priority": 3,
+    "description_pattern": "LYFT", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Transportation", "priority": 4,
+    "description_pattern": "MTA*NYCT", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Transportation", "priority": 5,
+    "description_pattern": "METRO TRANSIT", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Transportation", "priority": 6,
+    "description_pattern": "PARKING", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Transportation", "priority": 7,
+    "description_pattern": "TOLL", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Transportation", "priority": 8,
+    "description_pattern": "E-ZPASS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Transportation", "priority": 9,
+    "description_pattern": "EZPASS", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Entertainment", "priority": 1,
+    "description_pattern": "AMC THEATRE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Entertainment", "priority": 2,
+    "description_pattern": "REGAL CINEMA", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Entertainment", "priority": 3,
+    "description_pattern": "CINEMARK", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Entertainment", "priority": 4,
+    "description_pattern": "FANDANGO", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Entertainment", "priority": 5,
+    "description_pattern": "TICKETMASTER", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Entertainment", "priority": 6,
+    "description_pattern": "STUBHUB", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Entertainment", "priority": 7,
+    "description_pattern": "LIVE NATION", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Entertainment", "priority": 8,
+    "description_pattern": "DAVE & BUSTER", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Entertainment", "priority": 9,
+    "description_pattern": "BOWLERO", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Entertainment", "priority": 10,
+    "description_pattern": "TOPGOLF", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Entertainment", "priority": 11,
+    "description_pattern": "STEAM GAMES", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Entertainment", "priority": 12,
+    "description_pattern": "STEAMGAMES", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Entertainment", "priority": 13,
+    "description_pattern": "PLAYSTATION", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Entertainment", "priority": 14,
+    "description_pattern": "XBOX", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Entertainment", "priority": 15,
+    "description_pattern": "NINTENDO", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Travel", "priority": 1,
+    "description_pattern": "AIRLINE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 2,
+    "description_pattern": "UNITED AIR", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 3,
+    "description_pattern": "DELTA AIR", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 4,
+    "description_pattern": "AMERICAN AIR", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 5,
+    "description_pattern": "SOUTHWEST AIR", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 6,
+    "description_pattern": "JETBLUE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 7,
+    "description_pattern": "SPIRIT AIR", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 8,
+    "description_pattern": "FRONTIER AIR", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 9,
+    "description_pattern": "AIRBNB", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 10,
+    "description_pattern": "VRBO", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 11,
+    "description_pattern": "MARRIOTT", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 12,
+    "description_pattern": "HILTON", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 13,
+    "description_pattern": "HYATT", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 14,
+    "description_pattern": "HOLIDAY INN", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 15,
+    "description_pattern": "BOOKING.COM", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 16,
+    "description_pattern": "EXPEDIA", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 17,
+    "description_pattern": "ENTERPRISE RENT", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 18,
+    "description_pattern": "HERTZ", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 19,
+    "description_pattern": "AVIS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Travel", "priority": 20,
+    "description_pattern": "TURO", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Auto & Maintenance", "priority": 1,
+    "description_pattern": "AUTOZONE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Auto & Maintenance", "priority": 2,
+    "description_pattern": "O'REILLY AUTO", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Auto & Maintenance", "priority": 3,
+    "description_pattern": "OREILLY AUTO", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Auto & Maintenance", "priority": 4,
+    "description_pattern": "ADVANCE AUTO", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Auto & Maintenance", "priority": 5,
+    "description_pattern": "JIFFY LUBE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Auto & Maintenance", "priority": 6,
+    "description_pattern": "VALVOLINE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Auto & Maintenance", "priority": 7,
+    "description_pattern": "FIRESTONE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Auto & Maintenance", "priority": 8,
+    "description_pattern": "GOODYEAR", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Auto & Maintenance", "priority": 9,
+    "description_pattern": "DISCOUNT TIRE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Auto & Maintenance", "priority": 10,
+    "description_pattern": "MEINEKE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Auto & Maintenance", "priority": 11,
+    "description_pattern": "MAACO", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Auto & Maintenance", "priority": 12,
+    "description_pattern": "CAR WASH", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Education", "priority": 1,
+    "description_pattern": "STUDENT LOAN", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Education", "priority": 2,
+    "description_pattern": "NAVIENT", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Education", "priority": 3,
+    "description_pattern": "NELNET", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Education", "priority": 4,
+    "description_pattern": "GREAT LAKES EDU", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Education", "priority": 5,
+    "description_pattern": "SALLIE MAE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Education", "priority": 6,
+    "description_pattern": "TUITION", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Education", "priority": 7,
+    "description_pattern": "UNIVERSITY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Education", "priority": 8,
+    "description_pattern": "COLLEGE", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Pets", "priority": 1,
+    "description_pattern": "PETCO", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Pets", "priority": 2,
+    "description_pattern": "PETSMART", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Pets", "priority": 3,
+    "description_pattern": "CHEWY", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Pets", "priority": 4,
+    "description_pattern": "VET CLINIC", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Pets", "priority": 5,
+    "description_pattern": "VETERINAR", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Pets", "priority": 6,
+    "description_pattern": "BANFIELD", "description_match_type": "contains"
+  },
+
+  {
+    "category_name": "Fees & Charges", "priority": 1,
+    "description_pattern": "OVERDRAFT FEE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Fees & Charges", "priority": 2,
+    "description_pattern": "SERVICE CHARGE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Fees & Charges", "priority": 3,
+    "description_pattern": "MONTHLY FEE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Fees & Charges", "priority": 4,
+    "description_pattern": "ATM FEE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Fees & Charges", "priority": 5,
+    "description_pattern": "MAINTENANCE FEE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Fees & Charges", "priority": 6,
+    "description_pattern": "LATE FEE", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Fees & Charges", "priority": 7,
+    "description_pattern": "INSUFFICIENT FUNDS", "description_match_type": "contains"
+  },
+  {
+    "category_name": "Fees & Charges", "priority": 8,
+    "description_pattern": "NSF FEE", "description_match_type": "contains"
+  }
+]
